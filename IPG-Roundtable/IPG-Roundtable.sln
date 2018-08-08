@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatentDataAcquisition", "PatentDataAcquisition\PatentDataAcquisition.csproj", "{F7011678-C23B-4C24-819D-A7521344D06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPGAcademicRoundtableResourcesWebsite", "IPGAcademicRoundtableResourcesWebsite\IPGAcademicRoundtableResourcesWebsite.csproj", "{05583D28-91AE-4F7E-A226-2197CDA80CD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{933B31DB-629F-4430-846F-8424A97D0DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0883BA3F-5A3D-4C73-BC06-9EE3DAB70C9F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{362B4501-3630-4B9E-BD3C-8932634B16EB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\IPGAcademicRoundtableResourcesWebsite.json = PublishScripts\Templates\IPGAcademicRoundtableResourcesWebsite.json
+		PublishScripts\Templates\IPGAcademicRoundtableResourcesWebsite.param.dev.json = PublishScripts\Templates\IPGAcademicRoundtableResourcesWebsite.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubDataAcquisition", "GitHubDataAcquisition\GitHubDataAcquisition.csproj", "{746762EE-A7C1-4781-B0D1-B68CFC06D7F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyResultsDataProcessor", "SurveyResultsDataProcessor\SurveyResultsDataProcessor.csproj", "{10C2FC5B-36F4-4C5A-BB0B-62B7E6CDCC65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7011678-C23B-4C24-819D-A7521344D06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7011678-C23B-4C24-819D-A7521344D06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7011678-C23B-4C24-819D-A7521344D06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7011678-C23B-4C24-819D-A7521344D06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05583D28-91AE-4F7E-A226-2197CDA80CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05583D28-91AE-4F7E-A226-2197CDA80CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05583D28-91AE-4F7E-A226-2197CDA80CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05583D28-91AE-4F7E-A226-2197CDA80CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746762EE-A7C1-4781-B0D1-B68CFC06D7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746762EE-A7C1-4781-B0D1-B68CFC06D7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746762EE-A7C1-4781-B0D1-B68CFC06D7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746762EE-A7C1-4781-B0D1-B68CFC06D7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C2FC5B-36F4-4C5A-BB0B-62B7E6CDCC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C2FC5B-36F4-4C5A-BB0B-62B7E6CDCC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C2FC5B-36F4-4C5A-BB0B-62B7E6CDCC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C2FC5B-36F4-4C5A-BB0B-62B7E6CDCC65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0883BA3F-5A3D-4C73-BC06-9EE3DAB70C9F} = {933B31DB-629F-4430-846F-8424A97D0DC4}
+		{362B4501-3630-4B9E-BD3C-8932634B16EB} = {933B31DB-629F-4430-846F-8424A97D0DC4}
+	EndGlobalSection
+EndGlobal
